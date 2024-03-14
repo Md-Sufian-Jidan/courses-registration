@@ -20,7 +20,7 @@ const Card = ({ carts }) => {
             <div className="divider"></div>
             <div>Total Credit Hour : {credits}hr</div>
             <div className="divider"></div>
-            <div>Total Price : {carts.reduce((p , c) => p + c.price , 0)}USD</div>
+            <div>Total Price : {carts.reduce((p , c) => p + c.price , 0)} USD</div>
         </div>
     );
 };
